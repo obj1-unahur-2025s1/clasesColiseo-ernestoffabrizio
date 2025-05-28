@@ -1,7 +1,8 @@
-import example.pepita
-
-describe "group of tests for pepita" {
-
+import coliseo.*
+describe "test" {
+  armaFilo1 = new Filo(longitud = 3 filo = 0.7)
+  mirmillon1 = new Mirmillon(arma = armaFilo1)
+  mirmillolandia = new Grupo()
   test "pepita has initial energy" {
     assert.equals(100, pepita.energy())
   }
